@@ -78,7 +78,6 @@ input, select, textarea {
 	border-bottom: none;
 	display: inline-block;
 	margin-bottom: 1.5rem;
-	padding: 3% 5%;
 }
 
 .email-text {
@@ -87,10 +86,8 @@ input, select, textarea {
 }
 
 .email-me:hover {
-	border: 1px solid white;
-	border-radius: 5px;
-	background-color: white;
-	color: rgba(27, 31, 34, 0.85);
+	text-decoration: underline;
+	text-decoration-color: white;
 }
 
 .skills-container1, .skills-container2 {
